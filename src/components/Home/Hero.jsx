@@ -69,7 +69,7 @@ const Hero = () => {
           </div>
 
           {/* Social Icons */}
-          <div className="flex gap-5 mt-8 text-2xl">
+          <div className="flex gap-5 mt-8 mb-2 lg:mb-0 text-2xl">
             <a
               href="https://github.com/Tanveer0123123"
               target="_blank"
@@ -114,7 +114,7 @@ const Hero = () => {
             <img
               src={TanveerImg}
               alt="Tanveer Ansari"
-              className="w-full h-full lg:h-[450px] object-cover rounded-full border-4 border-[#A855F7] shadow-lg shadow-purple-500/50"
+              className="w-full h-[330px] lg:h-[450px] object-cover rounded-full border-4 border-[#A855F7] shadow-lg shadow-purple-500/50"
             />
           </motion.div>
         </motion.div>

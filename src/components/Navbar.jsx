@@ -55,7 +55,7 @@ const Navbar = () => {
       </nav>
 
       {/* Spacer (Navbar height fix) */}
-      <div className="h-[72px]" />
+      <div className="h-[65px]" />
 
       {/* Overlay (click outside to close) */}
       {open && (
