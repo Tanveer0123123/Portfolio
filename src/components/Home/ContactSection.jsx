@@ -38,7 +38,7 @@ const ContactSection = () => {
     try {
       // ✅ 1) Send Email via Web3Forms 
       const payload = {
-        access_key: "8776430b-7d8b-43b4-9508-986ce87c5083", 
+        access_key: "8776430b-7d8b-43b4-9508-986ce87c5083",
         subject: "New Portfolio Enquiry",
         from_name: "Portfolio Contact Form",
         ...formData,
@@ -125,9 +125,13 @@ Message: ${formData.message}`;
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Email</p>
-                    <p className="text-gray-200 font-medium">
+                    <a
+                      href="mailto:tanveer0123123@gmail.com"
+                      className="text-gray-200 font-medium break-all hover:text-purple-400 transition"
+                    >
                       tanveer0123123@gmail.com
-                    </p>
+                    </a>
+
                   </div>
                 </div>
               </div>
