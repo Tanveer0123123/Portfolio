@@ -10,6 +10,7 @@ import HireMePage from "./pages/HireMePage";
 
 function App() {
   return (
+    <div className="w-full overflow-x-hidden">
     <BrowserRouter>
       <Navbar />
 
@@ -24,6 +25,7 @@ function App() {
 
       <Footer />
     </BrowserRouter>
+    </div>
   );
 }
 
