@@ -15,7 +15,7 @@ const TestimonialsSection = () => {
   const duplicatedTestimonials = useMemo(() => [...testimonials, ...testimonials, ...testimonials], []);
 
   return (
-    <section className="bg-gray-950 py-12 overflow-hidden">
+    <section className="bg-gray-950 py-12 overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <motion.div
@@ -36,7 +36,7 @@ const TestimonialsSection = () => {
         {/* Smooth Loop Container */}
         <div className="relative flex overflow-hidden group">
           <motion.div
-            className="flex gap-6 pr-6"
+            className="flex gap-6 pr-6 will-change-transform"
             animate={{
               x: ["0%", "-33.33%"], // Move by one full set of testimonials
             }}
@@ -54,7 +54,7 @@ const TestimonialsSection = () => {
             {duplicatedTestimonials.map((item, i) => (
               <div
                 key={i}
-                className="w-[350px] md:w-[400px] flex-shrink-0"
+                className="w-[85vw] sm:w-[420px] flex-shrink-0"
               >
                 <div className="group/card relative overflow-hidden bg-gray-900 border border-gray-800 rounded-2xl p-7 hover:border-purple-500/50 transition duration-300 h-full">
                   {/* Decorative Glows */}
