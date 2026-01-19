@@ -74,7 +74,7 @@ const Navbar = () => {
         {/* Drawer Header */}
         <div className="flex justify-between items-center px-6 py-4 border-b border-gray-800">
           <span className="text-xl font-bold text-purple-500">
-            Tanveer.dev
+            Tanveer Alam
           </span>
           <button
             className="text-2xl"

@@ -64,7 +64,7 @@ const ProjectsSection = () => {
   return (
     <section
       id="projects"
-      className="min-h-[100dvh] flex items-start pt-14 bg-gray-950"
+      className="py-20 flex items-start pt-14 bg-gray-950"
     >
       <div className="max-w-7xl mx-auto px-6 py-12">
 

@@ -85,7 +85,7 @@ Message: ${formData.message}`;
   };
 
   return (
-    <section id="contact" className="min-h-[100dvh] flex items-start pt-14 bg-gray-900">
+    <section id="contact" className="py-20 flex items-start pt-14 bg-gray-900">
       <div className="max-w-7xl mx-auto px-6 py-12">
         {/* Heading */}
         <motion.div

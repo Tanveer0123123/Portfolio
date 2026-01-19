@@ -13,7 +13,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: FaGithub, link: "https://github.com/Tanveer0123123" },
     { icon: FaInstagram, link: "https://instagram.com/shahab-jade-tanveer" },
-    { icon: FaLinkedinIn, link: "www.linkedin.com/in/tanveer-alam-ansari-4b193226b" },
+    { icon: FaLinkedinIn, link: "https://www.linkedin.com/in/tanveer-alam-ansari-4b193226b" },
   ];
 
   return (

@@ -6,7 +6,8 @@ import TanveerImg from "../../assets/Tanveer-photo1.jpg"
 const titles = [
   "Software Engineer",
   "MERN Stack Developer",
-  "React Developer",
+  "Wordpress Developer",
+  "React Js Developer",
 ];
 
 const Hero = () => {
@@ -22,7 +23,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="min-h-[100dvh] flex items-start pt-14">
+    <section className="py-24 md:py-32 flex items-center pt-14">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
         {/* LEFT CONTENT */}
@@ -79,7 +80,8 @@ const Hero = () => {
             </a>
 
             <a
-              href="www.linkedin.com/in/tanveer-alam-ansari-4b193226b"
+              // href="www.linkedin.com/in/tanveer-alam-ansari-4b193226b"
+              href="https://www.linkedin.com/in/tanveer-alam-ansari-4b193226b"
               target="_blank"
               className="hover:text-purple-500 transition"
             >
