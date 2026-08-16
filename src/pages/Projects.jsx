@@ -1,58 +1,61 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import Img1 from "../assets/project-ecommerce.jpg";
-import Img2 from "../assets/project-ecommerce2.jpg";
+import Img1 from "../assets/power-track-logo2.png";
+import Img2 from "../assets/hommlie2.png";
 import Img3 from "../assets/project-portfolio.png";
+import Img4 from "../assets/np3.png";
+import Img5 from "../assets/project-ecommerce.jpg";
+import Img6 from "../assets/project-ecommerce2.jpg";
 
 const projects = [
   {
-    title: "E-Commerce Web App",
-    desc: "Full-stack e-commerce app with authentication, cart, and order management.",
-    tech: ["React", "Node", "Express", "MongoDB"],
+    title: "Power Track Gym",
+    desc: "Modern and fully responsive gym website with membership plans, trainer profiles, trial booking, and an engaging user-friendly interface.",
+    tech: ["React Js", "Tailwind"],
     image: Img1,
-    github: "#",
-    live: "#",
+    github: "https://github.com/Tanveer0123123/power-track-gym",
+    live: "https://www.powertrackgym.com/",
   },
   {
-    title: "Real-Time Chat App",
-    desc: "Real-time chat application with private & group chats using Socket.io.",
-    tech: ["MERN", "Socket.io", "JWT"],
+    title: "Hommlie",
+    desc: "Modern home services platform with a responsive interface for exploring services, managing bookings, and delivering a seamless user experience.",
+    tech: ["React", "Node", "Express", "My Sql"],
     image: Img2,
-    github: "#",
-    live: "#",
+    github: "https://github.com/Tanveer0123123/hommlie-full-stack-project",
+    live: "https://hommlie-full-stack-project.vercel.app/",
   },
   {
     title: "Portfolio Website",
-    desc: "Modern portfolio website to showcase skills, projects, and experience.",
-    tech: ["React", "Tailwind"],
+    desc: "Modern and fully responsive portfolio website designed to showcase my technical skills, projects, experience, and professional profile with smooth animations and a clean user-friendly interface.",
+    tech: ["React Js", "Tailwind"],
     image: Img3,
-    github: "#",
-    live: "#",
+    github: "https://github.com/Tanveer0123123/Portfolio",
+    live: "https://www.tanveeralamansari.com/",
   },
 
   /* ---------- NEW PROJECTS ---------- */
 
   {
-    title: "ERP Management System",
-    desc: "ERP-level web application with dashboards, role-based access, and data management.",
-    tech: ["React", "Next.js", "REST API"],
-    image: Img1,
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Business Website",
-    desc: "Professional business website with responsive UI and performance optimization.",
-    tech: ["React", "Tailwind CSS"],
-    image: Img2,
-    github: "#",
-    live: "#",
+    title: "Now & Fast Transport",
+    desc: "Professional and fully responsive transport business website designed to showcase transportation services, company information, and provide a smooth user experience across all devices.",
+    tech: ["React Js", "Node js", "Mongo Db"],
+    image: Img4,
+    github: "https://github.com/Tanveer0123123/packers-movers-project",
+    live: "https://www.nowandfasttransport.com/",
   },
   {
     title: "WordPress Custom Website",
-    desc: "Custom WordPress website with theme customization and CMS enhancements.",
+    desc: "Custom and fully responsive WordPress website developed with a modern design, customized theme components, optimized layouts, and CMS functionality to provide an easy-to-manage and engaging user experience.",
     tech: ["WordPress", "PHP"],
-    image: Img3,
+    image: Img5,
+    github: "#",
+    live: "#",
+  },
+  {
+    title: "ERP Management System",
+    desc: "ERP-level web application with dashboards, role-based access, and data management.",
+    tech: ["React Js", "Node js", "REST API"],
+    image: Img6,
     github: "#",
     live: "#",
   },
