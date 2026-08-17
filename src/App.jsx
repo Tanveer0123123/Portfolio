@@ -7,11 +7,13 @@ import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import HireMePage from "./pages/HireMePage";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="w-full overflow-x-hidden">
     <BrowserRouter>
+      <ScrollToTop/>
       <Navbar />
 
       <Routes>
